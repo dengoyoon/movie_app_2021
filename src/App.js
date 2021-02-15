@@ -18,7 +18,7 @@ class App extends React.Component{
   componentDidMount(){
     setTimeout(() => {
       this.setState({ isLoading : false});
-    }, 6000);
+    }, 5000);
   }
   //'render()' is only function in React component
   render() {  // React excutes render method that my class component have
